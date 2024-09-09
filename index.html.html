@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopsee.com</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(54 54 100 / 84%);
+        color: white;
+    }
+
+    @keyframes anima {
+        to {
+            width: 90vw;
+        }
+        from {
+            width: 0;
+
+        }
+        
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 20px 0px black;
+        font-size: 20px;
+        background-color: #1e1e6457;
+        padding: 10px;
+        border-radius: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Segoe UI';
+        animation-name: anima;
+        animation-duration: 0.5s;
+        /* animation-delay: 1s; */
+        animation-iteration-count: 1;
+    }
+
+
+
+    .navbar img {
+        border-radius: 60px;
+    }
+
+    .navbar h2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navbar ul li {
+        list-style: none;
+    }
+
+    .navbar ul li:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* .main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    } */
+
+    .main img {
+        display: flex;
+        gap: 20px;
+        margin: 35px;
+        width: 400px;
+        /* display: flex; */
+        /* float: right; */
+        /* margin-right: 200px; */
+        box-shadow: 0px 0px 20px 0px black;
+        border-radius: 20px;
+        justify-content: center;
+        /* margin: ; */
+    }
+    .box1 h1 {
+        text-shadow: 0px 2px 8px #292929;
+    }
+
+    .box1 {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Segoe UI';
+
+    }
+
+    .box1 p {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .foot {
+        height: 300px;
+        background-color: rgb(89, 88, 88);
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        font-family: serif;
+        flex-direction: column;
+    }
+
+    .button button {
+        margin-top: 25px;
+        width: 180px;
+        padding: 20px;
+        border-radius: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+
+    .button button:hover {
+background-color: rgba(127, 137, 207, 0.902);
+    }
+
+    .foot .credit {
+        display: flex;
+        position: relative;
+        bottom: 38px;
+    text-shadow: 0 0 20px black;
+    font-family: sans-serif;
+    }
+
+    .end {
+        display: flex;
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <h2><img width="70px" src="logo.jpg" alt="">Shopsee</h2>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Login</li>
+                <li>Sign-in</li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="main">
+            <div class="box1">
+                <h1>
+                    Welcome to the <br>Shopsee Website
+                </h1>
+                <p>Lorem ipsum, dolor sit <br>amet consectetur adipisicing elit. Qui est iure <br>molestiae velit
+                    pariatur atque unde saepe autem <br>distinctio rem.Lorem ipsum dolor sit, amet consectetur <br>
+                adipisicing elit. Vitae, eum.</p> 
+                <div class="button">
+                    <button>Shop</button>
+                    <button>Cart</button>
+                </div>
+            </div>
+            <img src="imgmodel.jpg" alt="">
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+        <div class="credit">This website is owned by Aarif Ali</div>
+            <div class="end">
+            
+            <div class="foot1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti, ad nobis
+                assumenda nulla alias voluptatibus ut enim saepe quibusdam!</div>
+            <div class="foot2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure dolorum accusantium
+                fuga nostrum amet adipisci aut quo molestias. Esse?</div>
+            <div class="foot3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure dolorum accusantium
+                fuga nostrum amet adipisci aut quo molestias. Esse?</div>
+            <div class="foot4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure dolorum accusantium
+                fuga nostrum amet adipisci aut quo molestias. Esse?</div>
+            </div>
+            
+        </div>
+  
+    </footer>
+</body>
+
+</html>
